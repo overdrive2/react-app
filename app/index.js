@@ -24,6 +24,7 @@ export default function Page() {
         </Button>
         <Link href="/home" style={styles.link}>Home</Link>
         <Link href="/Rachet" style={styles.link}>Open Rachet's profile</Link>
+        <Link href="/auth" style={styles.link} options={{ headerShown: false }}>auth</Link>
       </View>
     </View>
   );
